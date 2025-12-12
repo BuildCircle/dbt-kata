@@ -51,3 +51,27 @@ Add dbt tests to ensure your models are reliable. We expect to see at least:
 *   Unique and Not Null tests on primary keys.
 *   Accepted values tests where appropriate.
 
+## Setup & Running
+
+This project is configured to use **DuckDB**, so you don't need to set up an external database.
+
+### Prerequisites
+*   Python 3.8+ installed.
+
+### Installation
+1.  Clone the repository.
+2.  Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+### Running the Project
+To build the models and run the tests:
+```bash
+dbt build --profiles-dir .
+```
+
+This will:
+1.  Load the CSV seeds into a local `dbt.duckdb` file.
+2.  Run your models.
+3.  Run your tests.
