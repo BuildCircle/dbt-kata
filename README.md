@@ -29,7 +29,7 @@ You will find three CSV files in the `seeds/` directory:
 
 ## Setup & Running
 
-This project is configured to use **DuckDB**, so you don't need to set up an external database.
+This project is configured to use **DuckDB**, so you don't need to set up an external database. If you are not confident running locally, use a github workspace with a blank template.
 
 ### Prerequisites
 *   Python 3.8+ installed.
