@@ -110,10 +110,3 @@ A script `run_analysis.py` is included. It executes **compiled SQL files** gener
     python run_analysis.py new_users_last_month.sql
     ```
 
-### Example Usage
-
-```bash
-# Run the included sample analysis
-python run_analysis.py new_users_last_month.sql
-```
-
